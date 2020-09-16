@@ -1,7 +1,8 @@
 execute pathogen#infect()
 
 " If installed using Homebrew
-set rtp+=/usr/local/opt/fzf
+"set rtp+=/usr/local/opt/fzf
+set rtp+=~/.fzf
 
 set number
 syntax on
